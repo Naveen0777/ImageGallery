@@ -14,7 +14,7 @@ flutter clean
 
 flutter pub get
 
-cd build web
+flutter build web
 
 git init
 
@@ -22,6 +22,8 @@ git add .
 
 git commit -m "Web Image Galley"
 
-git remote add origin https://github.com/Naveen0777/gallery_web/
+git branch -M {branch_name}
 
-git push -u --force origin master
+git remote add origin https://github.com/Naveen0777/ImageGallery
+
+git push -u (--force) origin {branch_name} //force is optional
